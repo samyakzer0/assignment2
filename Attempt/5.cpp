@@ -22,7 +22,7 @@ int main(){
         for (int j = 1 ; j <= m-i  ; j++){
            cout << "  ";
         }
-        if(i==2){
+        if(i==n-1){
         for (int j = 1 ; j <= 2*i-2 ; j++){
             while (!isPrime(prime)){
                 prime++;
@@ -43,9 +43,7 @@ int main(){
         cout << endl;
     }
     
-    prime = 2;
-    
-    for(int i = 2; i <= n; i++){
+    for(int i = 2 ; i <= n ; i++){
         for (int j = 1 ; j <= m-i  ; j++){
            cout << "  ";
         }
